@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#d81b60" >
+    <title>KNOW8</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e91662">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+<style>   
+
+$accent: #ffcc00;
+//$accent: #52be7f;
+$cardBackground: darken($accent,5);
+//$cardBackground: #333;
+
+section, footer, nav {
+  display: block;
+}
+body {
+  -webkit-text-size-adjust: none;
+  background: $accent;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 3em;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+figure {
+  margin: 0;
+}
+// Tile Classes 
+.tile {
+  width: 250px;
+  height: 350px;
+  margin: 2em;
+  position: relative;
+  float: left;
+  .front, .back {
+    display: block;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+  }
+  h3, p, a {
+    padding: 0 20px;
+  }
+  img {
+    max-height: 130px;
+  }
+  .front {
+    background: #fff;
+    transition: all .5s ease-in-out;
+    z-index: 2;
+    h3 {
+      font-size: 2em;
+      color: white;
+      text-shadow: 0 0 5px #000;
+      margin-top: -1.5em;
+      margin-bottom: 1.5em;
+    }
+  }
+  .back {
+    background: $cardBackground;
+    color: white;
+    z-index: 1;
+    padding-top: 50px;
+    height: 300px;
+    h3 {
+      font-size: 1.5em;
+      color: white;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    a {
+      display: block;
+      font-size: 1.2em;
+      color: white;
+      border-top: 1px solid lighten($cardBackground,5);
+      margin: 0 20px;
+      padding: .5em 0;
+    }
+  }
+  &:hover {
+    .front {
+      top: -300px;
+      transform: rotate(2deg);
+    }
+  }
+}
+
+</style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body >
+
+    <div class="wrapper">
+  <div class="tile job-bucket">
+    <div class="front">
+      <div class="contents">
+        <img src="http://imgsg.jobing.com/company/images/142939/t/taxi-drivers.jpg"/>
+        <h3>Taxi Drivers</h3>
+        <p>"Driving here at Yellow Cab gives me the freedom and flexibility to make money at my pace. Being my own boss allows me to work harder, the more I work the more I can bring in."</p>
+        <br>
+        <a href="#">View Jobs</a>
+      </div>
+    </div>
+    <div class="back">
+      <h3>Open Jobs</h3>
+      <a href="#">Experienced Taxi Driver</a>
+      <a href="#">Taxi Driver - East Valley</a>
+      <a href="#">Taxi Driver - West Valley</a>
+      <a href="#">Taxi Driver - Central Valley</a>
+      <a href="#">View All Jobs</a>
+    </div>
+  </div>
+  <div class="tile job-bucket">
+    <div class="front">
+      <div class="contents">
+        <img src="http://imgsg.jobing.com/company/images/142939/t/sedan-drivers.jpg"/>
+        <h3>Sedan Drivers</h3>
+        <p>"Being able to offer a higher level of service, wearing a black suit and tie helps make me stand out from the crowd. When I meet someone for the first time I feel they are more relaxed...</p>
+        <br>
+        <a href="#">View Jobs</a>
+      </div>
+    </div>
+    <div class="back">
+      <h3>Open Jobs</h3>
+      <a href="#">Medical Transportation Sedan Drivers Phoenix</a>
+      <a href="#">Sedan Driver - East Valley</a>
+      <a href="#">Sedan Driver - Nights</a>
+      <a href="#">View All Jobs</a>
+    </div>
+  </div>
+  <div class="tile job-bucket">
+    <div class="front">
+      <div class="contents">
+        <img src="http://imgsg.jobing.com/company/images/142939/t/customer-service-representitives.jpg"/>
+        <h3>Dispatchers</h3>
+        <p>"Coming to work every day is exciting because I love my job and the people I work with. I enjoy interacting with people and this allows me to do so, but in a safe working environment with flexible shifts.</p>
+        <br>
+        <a href="#">View Jobs</a>
+      </div>
+    </div>
+    <div class="back">
+      <h3>Open Jobs</h3>
+      <a href="#">Customer Service Representatives Phoenix</a>
+      <a href="#">Street Team</a>
+      <a href="#">View All Jobs</a>
+    </div>
+  </div>
+</div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
